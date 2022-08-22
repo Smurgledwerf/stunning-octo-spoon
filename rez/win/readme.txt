@@ -1,0 +1,1 @@
+Install rez for windows here.
