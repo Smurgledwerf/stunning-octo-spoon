@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+set rez_dir=/path/to/rez
+
+export REZ_CONFIG_FILE=$rez_dir/config/rezconfig.py
+
+export REZ_PACKAGES_PATH=~/packages:$rez_dir/packages/int:$rez_dir/packages/ext:$rez_dir/packages/python
+
+export PATH=$rez_dir/linux/bin/rez:$PATH
+

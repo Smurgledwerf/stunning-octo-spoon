@@ -1,0 +1,10 @@
+#!/usr/bin/tcsh
+
+set rez_dir=/path/to/rez
+
+setenv REZ_CONFIG_FILE $rez_dir/config/rezconfig.py
+
+setenv REZ_PACKAGES_PATH ~/packages:$rez_dir/packages/int:$rez_dir/packages/ext:$rez_dir/packages/python
+
+setenv PATH $rez_dir/linux/bin/rez:$PATH
+
