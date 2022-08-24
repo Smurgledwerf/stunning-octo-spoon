@@ -8,4 +8,9 @@ set REZ_PACKAGES_PATH=~/packages;%rez_dir%\packages\int;%rez_dir%\packages\ext;%
 
 if not exist "C:\rez_cache" mkdir C:\rez_cache
 
-set PATH=%rez_dir%\win\Scripts\rez;%PATH%
+set rez_path=%rez_dir%\windows\Scripts\rez
+if exist "C:\rez\Scripts\rez\.rez_production_install" (
+    rez_path=C:\rez\Scripts\rez
+)
+
+set PATH=%rez_path%;%PATH%

@@ -2,9 +2,13 @@
 
 set rez_dir=/path/to/rez
 
+# use the custom rez settings
 setenv REZ_CONFIG_FILE $rez_dir/config/rezconfig.py
 
+# this enables extending the packages path at runtime like:
+# export REZ_PACKAGES_PATH=/some/path/to/packages:$REZ_PACKAGES_PATH
 setenv REZ_PACKAGES_PATH ~/packages:$rez_dir/packages/int:$rez_dir/packages/ext:$rez_dir/packages/python
 
+# enable rez
 setenv PATH $rez_dir/linux/bin/rez:$PATH
 

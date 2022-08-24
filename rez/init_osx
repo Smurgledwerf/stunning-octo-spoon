@@ -13,10 +13,10 @@ export REZ_PACKAGES_PATH=~/packages:$rez_dir/packages/int:$rez_dir/packages/ext:
 mkdir -p ~/rez_cache
 
 # enable rez
-rez_path=$rez_dir/osx/bin/rez:$PATH
+rez_path=$rez_dir/osx/bin/rez
 if [ -f ~/Applications/rez/bin/rez/.rez_production_install ]; then
-	# use the local rez install for better performance
-	rez_path=~/Applications/rez/bin/rez
+    # use the local rez install for better performance
+    rez_path=~/Applications/rez/bin/rez
 fi
 
 export PATH=$rez_path:$PATH

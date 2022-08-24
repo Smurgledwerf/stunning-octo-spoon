@@ -21,7 +21,7 @@ def commands():
     elif sys.platform == 'darwin':
         alias('blender', 'open -n -a Blender.app --args')
     elif sys.platform == 'linux2':
-        alias('blender', '/rel/third_party/blender-3.1-linux64/blender')
+        alias('blender', '/software/blender/blender-3.1-linux64/blender')
 
 timestamp = 1639194877
 

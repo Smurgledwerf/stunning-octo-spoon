@@ -11,6 +11,7 @@ packages_path = [
     "/path/to/rez/packages/ext",  # external (3rd party) pkgs, such as houdini, boost
     "/path/to/rez/packages/python",  # pip-installable python packages from pypi
 ]
+# Note: don't worry about the syntax, this will be addressed per OS
 
 # The path that Rez will locally install packages to when rez-build is used
 local_packages_path = "~/packages"

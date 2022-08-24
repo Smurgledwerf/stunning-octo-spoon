@@ -1,1 +1,1 @@
-Download the rez source from https://github.com/AcademySoftwareFoundation/rez and extract the .zip file 
+Download the rez source from https://github.com/AcademySoftwareFoundation/rez and extract the .zip file here

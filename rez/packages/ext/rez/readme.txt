@@ -1,0 +1,1 @@
+I highly recommend doing `rez-bind rez` for every platform to create a rez package for rez itself.
