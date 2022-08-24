@@ -23,6 +23,4 @@ def commands():
     elif sys.platform == 'linux2':
         alias('blender', '/software/blender/blender-3.1-linux64/blender')
 
-timestamp = 1639194877
-
 format_version = 2

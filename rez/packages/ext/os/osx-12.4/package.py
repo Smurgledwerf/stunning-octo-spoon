@@ -2,7 +2,7 @@
 
 name = 'os'
 
-version = 'osx-12.3'
+version = 'osx-12.4'
 
 requires = [
     'platform-osx',
