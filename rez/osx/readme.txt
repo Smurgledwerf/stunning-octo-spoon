@@ -1,2 +1,2 @@
 Install rez for osx here
-/path/to/python39 /path/to/rez/config/rez_src-2.#.#/install.py -v /path/to/rez/osx
+/Library/Frameworks/Python.framework/Versions/3.9/bin/python3 /Volumes/path/to/rez/config/rez_src-2.#.#/install.py -v /Volumes/path/to/rez/osx

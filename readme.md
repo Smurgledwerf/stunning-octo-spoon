@@ -1,6 +1,7 @@
 
 # Rez Directory Structure
 This is an example directory structure to use with rez on multiple platforms.
+
 Note: for windows and macos, python should be installed locally. It can be done with a "portable" python on the network,
 but that's so much slower.
 
@@ -15,7 +16,8 @@ python-3.9 as an example.
 IMPORTANT: make sure it's a standard install for every user (requires admin), so "C:\Program Files\Python39" on windows
 or "/Library/Frameworks/Python.framework/Versions/3.9" for macos, not installed to a user's home directory.
 
-Next, run the install.py script for every platform you plan to use. Example on linux:
+Pick a network location that all platforms will have access to. Next, run the install.py script for every platform you
+plan to use. Example on linux:
 
 `/path/to/python39 ./install.py -v /path/to/rez/linux`
 
